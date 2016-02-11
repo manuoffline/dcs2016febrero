@@ -1,14 +1,15 @@
 Ejercicios de DCS 2015-2016
 
-10. Práctica 10
+Práctica 10
 Crea una Clase que calcule el factorial de un número entero en la que además incorpore una excepción en la que muestre un mensaje de error si no se introdujo el número o este no es un entero.
 Nota: Utiliza la clase InvalidArgumentException
 
-11. Práctica 11
+Práctica 11
 Calcula la diferencia entre dos fechas, usando la aproximación a objetos de PHP.
 Nota: Utiliza un objeto nativo de PHP que trabaja con fechas y horas
 
-12. Encriptación de texto usando clases
+Práctica 12
+Encriptación de texto usando clases
 Se creará una clase que permita encriptar y desencriptar texto, haciendo uso de la suma sin acarreo (ver la nota al final del enunciado).  Esta clase sólo contendrá una única propiedad (atributo o variable de instancia): la clave.
 Tendrá además los siguientes métodos:
 1. claveAlea: asignará a la propiedad clave un valor entero aleatorio entre 0 y 255 (ambos incluidos).
@@ -24,7 +25,8 @@ Modificar lo anterior para que la generación de la clave aleatoria se haga de f
 Nota 1: Se necesitarán las siguientes funciones: strlen, ord, chr, substr, floor, max y  explode.
 Nota 2: Suma de dos dígitos sin acarreo: Es igual a calcular el módulo de su suma y 10: (digito1 + digito2) % 10
 
-13. Generación de código HTML con herencia de clases.
+Práctica 13
+Generación de código HTML con herencia de clases.
 Crear una clase que gestione un elemento genérico de HTML. Contendrá tres atributos que permitan almacenar el nombre, el valor y la etiqueta del elemento.
 Tendrá además tres funciones (leeValor, leeNombre, leeEtiqueta) que devolverán el valor de cada uno de los atributos. De modo similar, se tendrán otras tres funciones que permitirán asignar valor a cada uno de los atributos.
 Se creará una segunda clase heredada de la anterior que gestionará las opciones de los elementos Select del HTML: <optionvalue=valor>etiqueta</option>
