@@ -31,7 +31,9 @@ Tendrá además los siguientes métodos:
 
 Se debe escribir una página php que haga uso de la clase anterior para encriptar y desencriptar un texto.
 Modificar lo anterior para que la generación de la clave aleatoria se haga de forma automática en el momento de crear el objeto.
+
 Nota 1: Se necesitarán las siguientes funciones: strlen, ord, chr, substr, floor, max y  explode.
+
 Nota 2: Suma de dos dígitos sin acarreo: Es igual a calcular el módulo de su suma y 10: (digito1 + digito2) % 10
 
 Práctica 13
